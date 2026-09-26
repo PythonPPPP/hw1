@@ -1,0 +1,23 @@
+{
+  "input_shape": [
+    1,
+    32,
+    64,
+    64
+  ],
+  "output_shape": [
+    1,
+    32,
+    32,
+    32
+  ],
+  "output_bytes": 131072,
+  "baseline_bytes": 10092544,
+  "peak_minus_baseline_bytes": 393216,
+  "live_after_minus_baseline_bytes": 131072,
+  "possible_int64_indices_bytes": 262144,
+  "operators": [
+    "aten::max_pool2d",
+    "aten::max_pool2d_with_indices"
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "counts": {
+    "total": 132,
+    "OK": 132,
+    "OOM": 0,
+    "calibration": 63,
+    "validation": 69,
+    "energy_measured": 132
+  },
+  "calibration": {
+    "latency": {
+      "n": 63,
+      "mape_percent": 20.406712476349476,
+      "median_ape_percent": 18.20748692894581,
+      "p90_ape_percent": 38.51143993368371,
+      "max_ape_percent": 62.458511357148375,
+      "rmse": 0.0027234730241569483,
+      "signed_mean_percent": -6.403917753290904
+    },
+    "memory": {
+      "n": 63,
+      "mape_percent": 40.05637144943686,
+      "median_ape_percent": 42.44606191399207,
+      "p90_ape_percent": 74.72268342283222,
+      "max_ape_percent": 90.26057617778281,
+      "rmse": 156626958.39517677,
+      "signed_mean_percent": -40.05637144943686
+    },
+    "energy": {
+      "n": 63,
+      "mape_percent": 11.430987847563316,
+      "median_ape_percent": 5.429366334391142,
+      "p90_ape_percent": 28.706527224759228,
+      "max_ape_percent": 64.29694296072877,
+      "rmse": 0.4601659326362252,
+      "signed_mean_percent": -3.315039116131677
+    }
+  },
+  "validation": {
+    "latency": {
+      "n": 69,
+      "mape_percent": 12.958721196064218,
+      "median_ape_percent": 8.14207263345925,
+      "p90_ape_percent": 24.875206607170572,
+      "max_ape_percent": 42.827405244936465,
+      "rmse": 0.00662958657033329,
+      "signed_mean_percent": -6.7869659342512865
+    },
+    "memory": {
+      "n": 69,
+      "mape_percent": 16.784861478823476,
+      "median_ape_percent": 5.017008249624483,
+      "p90_ape_percent": 47.83988344764892,
+      "max_ape_percent": 75.1577772442132,
+      "rmse": 172836056.46568754,
+      "signed_mean_percent": -16.784861478823476
+    },
+    "energy": {
+      "n": 69,
+      "mape_percent": 6.96693597618082,
+      "median_ape_percent": 3.812996392604348,
+      "p90_ape_percent": 17.663491442968304,
+      "max_ape_percent": 34.85414386821177,
+      "rmse": 0.7036476248151096,
+      "signed_mean_percent": -1.3763643915151806
+    }
+  },
+  "memory": {
+    "max_measured_bytes": 4577132544,
+    "max_predicted_bytes": 4567564048.0,
+    "min_measured_to_predicted": 1.0020948794367075,
+    "max_measured_to_predicted": 10.26754783705829,
+    "predicted_above_total_memory": 0
+  },
+  "model_regimes": {
+    "overhead_larger_than_both": 17,
+    "compute_branch": 0,
+    "memory_branch": 132,
+    "arithmetic_intensity_min_FLOP_per_byte": 4.061624294680784,
+    "arithmetic_intensity_max_FLOP_per_byte": 48.649956247272094
+  }
+}
